@@ -1,0 +1,29 @@
+{
+  "name": "eslint-config-silence",
+  "version": "0.1.0",
+  "description": "Eslint config for code-quality, prevent possible errors and follow best practices",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "prettier",
+    "check",
+    "code checker",
+    "lint",
+    "code linter",
+    "quality",
+    "verify"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zapolnoch/eslint-config-silence.git"
+  },
+  "devDependencies": {
+    "prettier": "1.18.2"
+  },
+  "peerDependencies": {
+    "eslint": ">= 6"
+  }
+}
