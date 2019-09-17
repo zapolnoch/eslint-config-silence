@@ -52,7 +52,6 @@ module.exports = {
 
     // Best Practices
     "array-callback-return": ["error", { allowImplicit: true }],
-    eqeqeq: ["error", "smart"],
     "no-case-declarations": "error",
     "no-else-return": "error",
     "no-empty-function": "error",
@@ -86,6 +85,7 @@ module.exports = {
     "no-useless-return": "warn",
     "no-void": "error",
     "no-with": "error",
+    eqeqeq: ["error", "smart"],
     radix: ["error", "as-needed"],
     yoda: ["error", "never"],
 
@@ -93,8 +93,7 @@ module.exports = {
     complexity: ["warn", 20],
     "max-depth": ["warn", 4],
     "max-lines": ["warn", 300],
-    "max-lines-per-function": ["warn", 300],
-    "max-params": ["warn", 5],
+    "max-params": ["warn", 3],
 
     // Variables
     "init-declarations": ["warn", "always"],
