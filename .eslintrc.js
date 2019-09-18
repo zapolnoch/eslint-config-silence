@@ -1,17 +1,11 @@
-const { rules } = require("./index.js")
+const silence = require.resolve('./index.js')
 
 module.exports = {
   plugins: ["prettier"],
 
-  env: {
-    es6: true,
-    node: true,
-  },
+  extends: [silence],
 
-  rules: Object.assign(
-    {
-      "prettier/prettier": "error",
-    },
-    rules,
-  ),
+  rules: {
+    "prettier/prettier": "error",
+  },
 }
