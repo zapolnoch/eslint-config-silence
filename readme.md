@@ -12,8 +12,7 @@ Prettier does only focus on formatting rules like `comma-style` and does nothing
 "complexity": ["warn", 20],
 "max-depth": ["warn", 4],
 "max-lines": ["warn", 300],
-"max-lines-per-function": ["warn", 300],
-"max-params": ["warn", 5],
+"max-params": ["warn", 3],
 ```
 
 ### Usage
