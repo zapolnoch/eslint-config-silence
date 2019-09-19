@@ -90,9 +90,11 @@ module.exports = {
 
     // Complexity
     complexity: ["warn", 20],
+    "sonarjs/cognitive-complexity": ["error", 15],
     "max-depth": ["warn", 4],
     "max-lines": ["warn", 300],
     "max-params": ["warn", 3],
+    "sonarjs/max-switch-cases": ["error", 10],
 
     // Variables
     "init-declarations": ["warn", "always"],
@@ -153,10 +155,8 @@ module.exports = {
     "sonarjs/no-use-of-empty-return-value": "error",
 
     // Code Smell Detection
-    "sonarjs/cognitive-complexity": "error",
-    "sonarjs/max-switch-cases": "error",
     "sonarjs/no-collapsible-if": "error",
-    "sonarjs/no-duplicate-string": "error",
+    "sonarjs/no-duplicate-string": ["error", 3],
     "sonarjs/no-duplicated-branches": "error",
     "sonarjs/no-identical-functions": "error",
     "sonarjs/no-inverted-boolean-check": "error",

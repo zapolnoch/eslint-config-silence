@@ -1,10 +1,11 @@
 {
   "name": "eslint-config-silence",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Eslint config for code-quality, prevent possible errors and follow best practices",
   "keywords": [
     "eslint",
     "eslintconfig",
+    "eslint-config",
     "prettier",
     "check",
     "code checker",
@@ -31,6 +32,6 @@
     "eslint-plugin-sonarjs": "0.4.0"
   },
   "peerDependencies": {
-    "eslint": "6.x"
+    "eslint": ">= 6.2.0"
   }
 }

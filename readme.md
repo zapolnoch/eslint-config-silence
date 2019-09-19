@@ -5,6 +5,8 @@ Prettier does only focus on formatting rules like `comma-style` and does nothing
 
 * Recommends best practices (e.g. `no-eval`, `no-extend-native`)
 
+* Code Smell Detection (e.g. `no-duplicated-branches`, `no-identical-functions`)
+
 * Forces the use of ES6+ features (e.g. `no-var`, `prefer-const`, `prefer-spread`)
 
 * Warnings you that complexity of the code is exceeded:
