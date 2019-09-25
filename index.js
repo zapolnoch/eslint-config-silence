@@ -10,7 +10,7 @@ module.exports = {
     browser: true,
   },
 
-  plugins: ["sonarjs"],
+  plugins: ["sonarjs", "node", "promise", "import"],
 
   rules: {
     // Possible Errors
@@ -167,5 +167,24 @@ module.exports = {
     "sonarjs/prefer-object-literal": "error",
     "sonarjs/prefer-single-boolean-return": "error",
     "sonarjs/prefer-while": "error",
+
+    // Node
+    "node/no-deprecated-api": "warn",
+    "node/no-unpublished-bin": "error",
+
+    // Promise
+    "promise/param-names": "error",
+    "promise/no-new-statics": "error",
+    "promise/no-return-in-finally": "error",
+    "promise/valid-params": "error",
+
+    // Import
+    "import/no-named-default": "error",
+    "import/export": "error",
+    "import/no-duplicates": "error",
+    "import/first": "error",
+    "import/no-webpack-loader-syntax": "error",
+    "import/no-self-import": "error",
+    "import/no-mutable-exports": "error",
   },
 }
