@@ -10,7 +10,7 @@ module.exports = {
     browser: true,
   },
 
-  plugins: ["sonarjs", "node", "promise", "import"],
+  plugins: ["sonarjs", "unicorn", "node", "promise", "import"],
 
   rules: {
     // Possible Errors
@@ -123,7 +123,6 @@ module.exports = {
     ],
     "no-lonely-if": "error",
     "no-multi-assign": "error",
-    "no-nested-ternary": "warn",
     "no-new-object": "error",
     "no-unneeded-ternary": "error",
 
@@ -186,5 +185,33 @@ module.exports = {
     "import/no-webpack-loader-syntax": "error",
     "import/no-self-import": "error",
     "import/no-mutable-exports": "error",
+
+    // Unicorn
+    "unicorn/catch-error-name": "error",
+    "unicorn/consistent-function-scoping": "error",
+    "unicorn/error-message": "error",
+    "unicorn/escape-case": "error",
+    "unicorn/expiring-todo-comments": "error",
+    "unicorn/new-for-builtins": "error",
+    "unicorn/no-abusive-eslint-disable": "error",
+    "unicorn/no-array-instanceof": "error",
+    "unicorn/no-for-loop": "warn",
+    "no-nested-ternary": "off",
+    "unicorn/no-nested-ternary": "error",
+    "unicorn/no-new-buffer": "error",
+    "unicorn/no-unreadable-array-destructuring": "error",
+    "unicorn/no-unsafe-regex": "warn",
+    "unicorn/no-unused-properties": "warn",
+    "unicorn/no-zero-fractions": "error",
+    "unicorn/number-literal-case": "warn",
+    "unicorn/prefer-event-key": "warn",
+    "unicorn/prefer-exponentiation-operator": "warn",
+    "unicorn/prefer-flat-map": "error",
+    "unicorn/prefer-includes": "error",
+    "unicorn/prefer-query-selector": "warn",
+    "unicorn/prefer-reflect-apply": "warn",
+    "unicorn/prefer-starts-ends-with": "error",
+    "unicorn/prefer-string-slice": "warn",
+    "unicorn/regex-shorthand": "warn",
   },
 }
