@@ -191,7 +191,6 @@ module.exports = {
     "unicorn/consistent-function-scoping": "error",
     "unicorn/error-message": "error",
     "unicorn/escape-case": "error",
-    "unicorn/expiring-todo-comments": "error",
     "unicorn/new-for-builtins": "error",
     "unicorn/no-abusive-eslint-disable": "error",
     "unicorn/no-array-instanceof": "error",
@@ -212,6 +211,5 @@ module.exports = {
     "unicorn/prefer-reflect-apply": "warn",
     "unicorn/prefer-starts-ends-with": "error",
     "unicorn/prefer-string-slice": "warn",
-    "unicorn/regex-shorthand": "warn",
   },
 }
