@@ -187,10 +187,16 @@ module.exports = {
     "import/no-mutable-exports": "error",
 
     // Unicorn
-    "unicorn/catch-error-name": "error",
+    "unicorn/catch-error-name": [
+      "error",
+      {
+        caughtErrorsIgnorePattern: "^(error|err)$",
+      },
+    ],
     "unicorn/consistent-function-scoping": "error",
     "unicorn/error-message": "error",
     "unicorn/escape-case": "error",
+    "unicorn/expiring-todo-comments": ["error", { allowWarningComments: true }],
     "unicorn/new-for-builtins": "error",
     "unicorn/no-abusive-eslint-disable": "error",
     "unicorn/no-array-instanceof": "error",
