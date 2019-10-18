@@ -84,12 +84,12 @@ module.exports = {
     "no-useless-return": "warn",
     "no-void": "error",
     "no-with": "error",
-    eqeqeq: ["error", "smart"],
-    radix: ["error", "as-needed"],
-    yoda: ["error", "never"],
+    "eqeqeq": ["error", "smart"],
+    "radix": ["error", "as-needed"],
+    "yoda": ["error", "never"],
 
     // Complexity
-    complexity: ["warn", 20],
+    "complexity": ["warn", 20],
     "sonarjs/cognitive-complexity": ["error", 15],
     "max-depth": ["warn", 4],
     "max-lines": ["warn", 300],
