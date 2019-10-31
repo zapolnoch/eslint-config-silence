@@ -17,7 +17,7 @@ Prettier does only focus on formatting rules like `comma-style` and does nothing
 "max-params": ["warn", 3],
 ```
 
-### Usage
+## Usage
 ```bash
 npm install -D eslint-config-silence
 ```
@@ -30,3 +30,10 @@ Add this to your .eslintrc file:
 ```
 
 *Note: You can also omit the `eslint-config-`*
+
+### React
+For React projects you can also use additional config:
+```json
+{
+  "extends": ["silence/react"]
+}
