@@ -37,3 +37,6 @@ For React projects you can also use additional config:
 {
   "extends": ["silence/react"]
 }
+```
+
+This config includes [rules of Hooks](https://reactjs.org/docs/hooks-rules.html) and recommended [accessibility rules](https://github.com/evcohen/eslint-plugin-jsx-a11y) on JSX elements.

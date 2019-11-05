@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-silence",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "Eslint config for code-quality, prevent possible errors and follow best practices",
   "keywords": [
     "eslint",
@@ -30,9 +30,11 @@
   },
   "dependencies": {
     "eslint-plugin-import": "2.18.2",
+    "eslint-plugin-jsx-a11y": "6.2.3",
     "eslint-plugin-node": "10.0.0",
     "eslint-plugin-promise": "4.2.1",
     "eslint-plugin-react": "7.16.0",
+    "eslint-plugin-react-hooks": "2.2.0",
     "eslint-plugin-sonarjs": "0.4.0",
     "eslint-plugin-unicorn": "12.1.0"
   },

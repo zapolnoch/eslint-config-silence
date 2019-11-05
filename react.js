@@ -1,9 +1,9 @@
 const silence = require.resolve("./index.js")
 
 module.exports = {
-  plugins: ["react"],
+  plugins: ["react", "react-hooks", "jsx-a11y"],
 
-  extends: [silence],
+  extends: ["plugin:jsx-a11y/recommended", silence],
 
   parserOptions: {
     ecmaFeatures: {
@@ -51,5 +51,9 @@ module.exports = {
     "react/jsx-no-comment-textnodes": "warn",
     "react/jsx-no-duplicate-props": "error",
     "react/jsx-no-useless-fragment": "error",
+
+    // Hooks
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
   },
 }
