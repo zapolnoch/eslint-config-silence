@@ -71,7 +71,7 @@ module.exports = {
     "no-octal-escape": "error",
     "no-proto": "error",
     "no-redeclare": "error",
-    "no-return-assign": "error",
+    "no-return-assign": ["error", "always"],
     "no-return-await": "error",
     "no-self-assign": "error",
     "no-self-compare": "error",
