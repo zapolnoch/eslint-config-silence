@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-silence",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "description": "Eslint config for code-quality, prevent possible errors and follow best practices",
   "keywords": [
     "eslint",

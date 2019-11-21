@@ -21,9 +21,9 @@ module.exports = {
     "react/button-has-type": "warn",
     "react/forbid-prop-types": "warn",
     "react/no-array-index-key": "warn",
-    "react/no-danger-with-children": "warn",
-    "react/no-unescaped-entities": "warn",
     "react/no-unused-prop-types": "warn",
+    "react/no-danger-with-children": "error",
+    "react/no-unescaped-entities": "error",
     "react/default-props-match-prop-types": "error",
     "react/no-access-state-in-setstate": "error",
     "react/no-children-prop": "error",
@@ -47,13 +47,14 @@ module.exports = {
 
     // JSX-specific
     "react/jsx-no-target-blank": "warn",
-    "react/jsx-uses-vars": "warn",
-    "react/jsx-no-comment-textnodes": "warn",
+    "react/jsx-uses-vars": "error",
+    "react/jsx-no-comment-textnodes": "error",
     "react/jsx-no-duplicate-props": "error",
     "react/jsx-no-useless-fragment": "error",
+    "react/jsx-uses-react": "error",
+    "react/jsx-no-undef": "error",
 
     // Hooks
     "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "warn",
   },
 }
