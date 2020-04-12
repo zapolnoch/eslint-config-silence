@@ -72,7 +72,6 @@ module.exports = {
     "no-proto": "error",
     "no-redeclare": "error",
     "no-return-assign": ["error", "always"],
-    "no-return-await": "error",
     "no-self-assign": "error",
     "no-self-compare": "error",
     "no-throw-literal": "warn",
