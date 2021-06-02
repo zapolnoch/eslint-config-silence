@@ -190,7 +190,7 @@ module.exports = {
     "unicorn/catch-error-name": [
       "error",
       {
-        caughtErrorsIgnorePattern: "^(error|err)$",
+        ignore: [/^err/],
       },
     ],
     "unicorn/consistent-function-scoping": "error",
