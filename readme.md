@@ -30,13 +30,3 @@ Add this to your .eslintrc file:
 ```
 
 *Note: You can also omit the `eslint-config-`*
-
-### React
-For React projects you can also use additional config:
-```json
-{
-  "extends": ["silence/react"]
-}
-```
-
-This config includes [rules of Hooks](https://reactjs.org/docs/hooks-rules.html) and recommended [accessibility rules](https://github.com/evcohen/eslint-plugin-jsx-a11y) on JSX elements.
