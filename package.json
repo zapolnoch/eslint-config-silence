@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-silence",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Eslint config for code-quality, prevent possible errors and follow best practices",
   "keywords": [
     "eslint",
@@ -15,6 +15,9 @@
     "verify"
   ],
   "license": "MIT",
+  "engines": {
+    "node": ">=12"
+  },
   "main": "index.js",
   "scripts": {
     "test": "eslint ."
@@ -24,13 +27,13 @@
     "url": "git://github.com/zapolnoch/eslint-config-silence.git"
   },
   "dependencies": {
-    "eslint-plugin-import": "2.23.4",
+    "eslint-plugin-import": "2.25.4",
     "eslint-plugin-node": "11.1.0",
-    "eslint-plugin-promise": "5.1.0",
-    "eslint-plugin-sonarjs": "0.9.1",
-    "eslint-plugin-unicorn": "34.0.1"
+    "eslint-plugin-promise": "6.0.0",
+    "eslint-plugin-sonarjs": "0.12.0",
+    "eslint-plugin-unicorn": "41.0.0"
   },
   "peerDependencies": {
-    "eslint": ">=7"
+    "eslint": ">=8"
   }
 }
