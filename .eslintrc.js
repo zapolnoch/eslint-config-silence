@@ -1,4 +1,4 @@
-const silence = require.resolve("./index.js")
+const silence = require.resolve("./typescript.js")
 
 module.exports = {
   extends: [silence],

@@ -1,4 +1,5 @@
-/* eslint-disable no-magic-numbers */
+const { noUnusedVars } = require("./lib/constants.js")
+
 module.exports = {
   parserOptions: {
     ecmaVersion: "latest",
@@ -72,28 +73,6 @@ module.exports = {
     "no-labels": "error",
     "no-lone-blocks": "error",
     "no-loop-func": "error",
-    "no-magic-numbers": [
-      "warn",
-      {
-        ignoreArrayIndexes: true,
-        ignoreDefaultValues: true,
-        detectObjects: false,
-        ignore: [
-          -1,
-          0,
-          0.1,
-          0.5,
-          1,
-          2,
-          10,
-          100,
-          1000,
-          1024, // bytes
-          24, // hours
-          60, // seconds, minutes
-        ],
-      },
-    ],
     "no-new": "error",
     "no-new-func": "error",
     "no-new-wrappers": "error",
@@ -152,17 +131,8 @@ module.exports = {
     "no-shadow-restricted-names": "error",
     "no-undef": "error",
     "no-undef-init": "error",
-    "no-unused-vars": [
-      "error",
-      {
-        vars: "all",
-        args: "after-used",
-        ignoreRestSiblings: true,
-        argsIgnorePattern: "^_",
-        caughtErrors: "none",
-      },
-    ],
-    "no-use-before-define": ["error", "nofunc"],
+    "no-unused-vars": noUnusedVars,
+    "no-use-before-define": ["error", { functions: false }],
     "no-useless-backreference": "error",
 
     // Stylistic Issues

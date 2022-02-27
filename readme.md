@@ -30,3 +30,15 @@ Add this to your .eslintrc file:
 ```
 
 *Note: You can also omit the `eslint-config-`*
+
+### TypeScript
+
+For TypeScript projects you can also use the additional config:
+
+```json
+{
+  "extends": ["silence/typescript"]
+}
+```
+
+This config includes only [extension rules](https://github.com/typescript-eslint/typescript-eslint/tree/main/packages/eslint-plugin#extension-rules). These rules have the same functionality but also support TypeScript.
