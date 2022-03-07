@@ -42,3 +42,9 @@ For TypeScript projects you can also use the additional config:
 ```
 
 This config includes only [extension rules](https://github.com/typescript-eslint/typescript-eslint/tree/main/packages/eslint-plugin#extension-rules). These rules have the same functionality but also support TypeScript.
+
+## Requirements
+
+- Node.js >=14
+- NPM >=7
+- ESLint >=8
