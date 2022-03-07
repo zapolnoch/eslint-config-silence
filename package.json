@@ -20,15 +20,15 @@
   },
   "main": "index.js",
   "scripts": {
-    "test": "eslint ."
+    "test": "eslint . '**/*.{js,ts}'"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/zapolnoch/eslint-config-silence.git"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "5.12.1",
-    "@typescript-eslint/parser": "5.12.1",
+    "@typescript-eslint/eslint-plugin": "5.13.0",
+    "@typescript-eslint/parser": "5.13.0",
     "eslint-plugin-import": "2.25.4",
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-promise": "6.0.0",
@@ -37,5 +37,8 @@
   },
   "peerDependencies": {
     "eslint": ">=8"
+  },
+  "devDependencies": {
+    "typescript": "4.5.5"
   }
 }
