@@ -1,15 +1,16 @@
 Prettier does only focus on formatting rules like `comma-style` and does nothing to help with code-quality.
 `eslint-config-silence` does not regulate code style rules, but focuses on:
 
-* Prevent possible errors (e.g. `no-cond-assign`, `no-unreachable`)
+- Prevent possible errors (e.g. `no-cond-assign`, `no-unreachable`)
 
-* Recommends best practices (e.g. `no-eval`, `no-extend-native`)
+- Recommends best practices (e.g. `no-eval`, `no-extend-native`)
 
-* Code Smell Detection (e.g. `no-duplicated-branches`, `no-identical-functions`)
+- Code Smell Detection (e.g. `no-duplicated-branches`, `no-identical-functions`)
 
-* Forces the use of ES6+ features (e.g. `no-var`, `prefer-const`, `prefer-spread`)
+- Forces the use of ES6+ features (e.g. `no-var`, `prefer-const`, `prefer-spread`)
 
-* Warnings you that complexity of the code is exceeded:
+- Warnings you that complexity of the code is exceeded:
+
 ```json
 "complexity": ["warn", 20],
 "max-depth": ["warn", 4],
@@ -18,18 +19,20 @@ Prettier does only focus on formatting rules like `comma-style` and does nothing
 ```
 
 ## Usage
+
 ```bash
 npm install -D eslint-config-silence
 ```
 
 Add this to your .eslintrc file:
+
 ```json
 {
   "extends": ["eslint-config-silence"]
 }
 ```
 
-*Note: You can also omit the `eslint-config-`*
+_Note: You can also omit the `eslint-config-`_
 
 ### TypeScript
 
@@ -43,8 +46,12 @@ For TypeScript projects you can also use the additional config:
 
 This config includes only [extension rules](https://github.com/typescript-eslint/typescript-eslint/tree/main/packages/eslint-plugin#extension-rules). These rules have the same functionality but also support TypeScript.
 
-## Requirements
+### Requirements
 
-- Node.js >=14
-- NPM >=7
-- ESLint >=8
+Node.js >=14. NPM >=7. ESLint >=8.
+
+## Who use it?
+
+- [VK Cloud Solutions](https://mcs.mail.ru) and some VK.com teams
+- [ECOMMPAY](https://ecommpay.com)
+- Some [open source projects](https://github.com/zapolnoch/eslint-config-silence/network/dependents)
