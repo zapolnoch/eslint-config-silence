@@ -3,3 +3,4 @@
 .prettierrc.json
 .travis.yml
 test
+compare

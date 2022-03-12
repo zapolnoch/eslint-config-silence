@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@babel/eslint-parser": "latest",
+    "@shopify/eslint-plugin": "latest",
+    "eslint": "latest",
+    "eslint-config-airbnb": "latest",
+    "eslint-config-silence": "latest",
+    "eslint-config-standard": "latest"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
