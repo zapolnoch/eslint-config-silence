@@ -21,7 +21,10 @@
   },
   "main": "index.js",
   "scripts": {
-    "test": "eslint . '**/*.{js,ts}'"
+    "test": "npm-run-all test:*",
+    "test:audit": "npm audit --audit-level=high",
+    "test:lint": "eslint . '**/*.{js,ts}'",
+    "test:unit": "tape test/**/*.js"
   },
   "repository": {
     "type": "git",
@@ -40,6 +43,8 @@
     "eslint": ">=8"
   },
   "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "tape": "^5.5.2",
     "typescript": "4.5.5"
   }
 }
