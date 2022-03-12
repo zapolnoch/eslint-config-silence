@@ -1,3 +1,9 @@
+# Shh!
+
+![workflow status](https://img.shields.io/github/workflow/status/zapolnoch/eslint-config-silence/CI/main)
+[![npm](https://img.shields.io/npm/v/eslint-config-silence.svg?style=flat-square)](https://www.npmjs.com/package/eslint-config-silence)
+[![npm](https://img.shields.io/npm/dm/eslint-config-silence.svg?style=flat-square)](https://www.npmjs.com/package/eslint-config-silence)
+
 Prettier does only focus on formatting rules like `comma-style` and does nothing to help with code-quality.
 `eslint-config-silence` does not regulate code style rules, but focuses on:
 
@@ -55,3 +61,9 @@ Node.js >=14. NPM >=7. ESLint >=8.
 - [VK Cloud Solutions](https://mcs.mail.ru) and some VK.com teams
 - [ECOMMPAY](https://ecommpay.com)
 - Some [open source projects](https://github.com/zapolnoch/eslint-config-silence/network/dependents)
+
+### Badge
+
+```md
+[![code style: silence](https://img.shields.io/badge/code_style-silence-000.svg)](https://github.com/zapolnoch/eslint-config-silence)
+```
