@@ -1,6 +1,6 @@
 # Shh!
 
-[![workflow status](https://img.shields.io/github/workflow/status/zapolnoch/eslint-config-silence/CI/main)](https://github.com/zapolnoch/eslint-config-silence/actions)
+[![workflow status](https://github.com/zapolnoch/eslint-config-silence/actions/workflows/CI.yml/badge.svg?branch=master)](https://github.com/zapolnoch/eslint-config-silence/actions)
 [![npm](https://img.shields.io/npm/v/eslint-config-silence.svg?style=flat-square)](https://www.npmjs.com/package/eslint-config-silence)
 [![npm](https://img.shields.io/npm/dm/eslint-config-silence.svg?style=flat-square)](https://www.npmjs.com/package/eslint-config-silence)
 
