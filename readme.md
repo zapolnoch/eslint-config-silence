@@ -54,7 +54,7 @@ This config includes only [extension rules](https://github.com/typescript-eslint
 
 ### Requirements
 
-Node.js >=14. NPM >=7. ESLint >=8.
+Node.js >=15. NPM >=7. ESLint >=8.
 
 ## Who use it?
 
