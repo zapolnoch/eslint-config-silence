@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Config-Silence</title>
+    <style>
+      body {
+        margin: 0;
+        background-color: #000;
+        font-family: "PT Serif", Georgia, serif;
+      }
+
+      body > div {
+        margin-top: 20px;
+        padding: 40px 0;
+        text-align: center;
+      }
+
+      body > div:nth-child(even) {
+        background: #fff;
+      }
+
+      .headline {
+        width: 100%;
+        max-width: 880px;
+        margin: 0 auto;
+        background-image: url("bg.avif");
+        background-clip: text;
+        background-size: 100% 150%;
+        font-size: 80px;
+        font-weight: 900;
+        color: transparent;
+        letter-spacing: 1.8px;
+        line-height: 107px;
+      }
+
+      .stats,
+      .desc {
+        font-size: 24px;
+        font-weight: 600;
+      }
+
+      .desc {
+        width: 50%;
+        margin: 0 auto;
+        padding-bottom: 20px;
+      }
+
+      .stats {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      .stats div {
+        max-width: 220px;
+        margin: 0 15px;
+      }
+
+      .stats span {
+        font-size: 64px;
+        display: block;
+      }
+
+      .links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .links a {
+        margin: 0 40px;
+      }
+
+      .links img {
+        max-width: 165px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="headline">Ученье&nbsp;– свет, но вот тишина&nbsp;– золото.</div>
+
+    <div>
+      <div class="desc">
+        Eslint-config-silence содержит в себе только логические правила, без проверки стилистики. В
+        первую очередь Silence запрещает устаревшие конструкции языка, помогает избежать ошибок в
+        вашем коде, рекомендует наилучшие практики и обнаруживает "запахи кода". При выборе правил
+        авторы следовали принципу сужения выбора и "ускучнения" языка.
+      </div>
+      <div class="stats">
+        <div><span>240</span> правил</div>
+        <div><span>5</span> плагинов</div>
+        <div><span>2</span> режима</div>
+      </div>
+    </div>
+
+    <div>
+      <iframe
+        width="100%"
+        height="450"
+        src="https://www.youtube-nocookie.com/embed/3v2R0wEfrJ4"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <div class="links">
+      <a href="https://github.com/zapolnoch/eslint-config-silence">
+        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="github" />
+      </a>
+      <a href="https://www.npmjs.com/package/eslint-config-silence">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/db/Npm-logo.svg" alt="npm" />
+      </a>
+    </div>
+  </body>
+</html>
