@@ -1,6 +1,6 @@
-.editorconfig
 .eslintrc.js
 .prettierrc.json
-.travis.yml
+.github
 test
 compare
+docs
